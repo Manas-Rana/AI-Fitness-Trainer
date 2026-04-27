@@ -1,5 +1,8 @@
 # AI Fitness Trainer using Pose Estimation
 
+##  Demo Output
+![Demo](demo.png)
+
 ##  Abstract
 This project uses computer vision to detect human body posture and count push-ups in real time using a webcam.
 
