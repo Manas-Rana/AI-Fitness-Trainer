@@ -14,6 +14,9 @@ This project uses computer vision to detect human body posture and count push-up
 
 ##  Methodology
 MediaPipe Pose is used to detect body landmarks. The angle between shoulder, elbow, and wrist is calculated using trigonometric functions. Based on angle thresholds, push-up stages are detected.
+**Angle thresholds:**
+- >160° → Up position
+- <90° → Down position
 
 ##  Technologies Used
 - Python
